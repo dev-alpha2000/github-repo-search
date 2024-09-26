@@ -50,14 +50,23 @@ View Repository Details: Each repository card will display key details like the 
 
 
 Responsive UI: The app is designed to work well on different devices, including desktops and mobile phones.
-Example
+
+## Example
 When you open the app:
 
 A search bar is displayed at the top where users can input a GitHub username or repo name.
+
 The search results will show a list of repositories with information such as repo name, description, star count, forks, and language.
+
+
 Clicking on a repository will take you to the actual GitHub page for that repository.
-Dependencies
+## Dependencies
+
 React: Frontend framework for building the UI.
+
 Axios: For making API requests to the GitHub API.
+
 GitHub API: For fetching repository data.
+
 CSS or Styled Components: For styling the app.
+
