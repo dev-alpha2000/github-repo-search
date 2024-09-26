@@ -1,21 +1,26 @@
-Overview
+## Overview
+
 This project is a GitHub Repo Search App built using React. It allows users to search for GitHub repositories by username or repository name, displaying relevant repository information such as the repo name, description, stars, forks, and the primary programming language.
 
-Features
+## Features
+
 Search by Username or Repo Name: Users can search for repositories by providing a GitHub username or repo name.
+
 Display Repository Information: Shows the repository's name, description, star count, forks, language, and more.
+
 Responsive Design: The app is fully responsive and works across mobile, tablet, and desktop devices.
+
 Real-Time Search: Fetches and displays data from the GitHub API in real-time as users input their search query.
+
 Pagination: (Optional) Implement pagination to handle large results and improve user experience.
 
 
-Installation
+## Installation
 To run this project locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
+bash code
 git clone https://github.com/yourusername/github-repo-search.git
 cd github-repo-search
 Install the dependencies:
@@ -37,14 +42,14 @@ Copy code
 npm start
 The app will be available at http://localhost:3000.
 
-Usage
+## Usage
+
 Search Repositories: Use the search bar to input a GitHub username or repository name to search for repositories.
+
 View Repository Details: Each repository card will display key details like the repository name, description, star count, fork count, and language used.
+
+
 Responsive UI: The app is designed to work well on different devices, including desktops and mobile phones.
-Customization
-Search Filters: Implement advanced search options such as filtering by language, stars, or forks.
-Pagination: (Optional) Handle large results by adding pagination functionality to limit the number of repositories shown per page.
-Styling: Customize the styles in App.css to change the appearance of the app.
 Example
 When you open the app:
 
